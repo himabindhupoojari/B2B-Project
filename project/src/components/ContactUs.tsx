@@ -3,14 +3,16 @@ import FIcon from '../Assets/Images/f.svg';
 import IIcon from '../Assets/Images/i.svg';
 import XIcon from '../Assets/Images/x.svg';
 import YIcon from '../Assets/Images/y.svg';
+import Logo from '../Assets/Images/logo.svg';
 
 export const ContactUs = () => {
     return (
         <div className='contact__container'>
             <div className='contact__section'>
                 <div className='contact__details1'>
-                    <p>INDIAJOY</p>
-                    <h2>B2B</h2>
+                    {/* <p>INDIAJOY</p>
+                    <h2>B2B</h2> */}
+                    <img src={Logo} alt='' />
                     <div className='contact__imgs'>
                         <img src={FIcon} alt='' data-aos="fade-up" data-aos-delay="100"/>
                         <img src={IIcon} alt='' data-aos="fade-up" data-aos-delay="200"/>

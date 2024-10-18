@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Logo from '../Assets/Images/logo.svg';
 
 interface MenuProps {
   onContactClick: () => void;
@@ -19,8 +20,9 @@ export const Menu: React.FC<MenuProps> = ({ onContactClick }) => {
       <nav className="navbar navbar-expand-lg menu__container">
         <div className="container menu__section">
           <a className="navbar-brand" href="#">
-            <p>INDIAJOY</p>
-            <h2>B2B</h2>
+            {/* <p>INDIAJOY</p>
+            <h2>B2B</h2> */}
+            <img src={Logo} alt='' />
           </a>
           <button
             className="navbar-toggler"

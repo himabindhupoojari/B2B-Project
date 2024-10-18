@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g id="Group_20420" data-name="Group 20420" transform="translate(-266 -1681)">
+    <g id="Group_20419" data-name="Group 20419" transform="translate(279.714 1694.714)">
+      <g id="Ellipse_142" data-name="Ellipse 142" transform="translate(0)" fill="none" stroke="#bf60ff" stroke-width="2">
+        <circle cx="18.286" cy="18.286" r="18.286" stroke="none"/>
+        <circle cx="18.286" cy="18.286" r="17.286" fill="none"/>
+      </g>
+      <g id="Ellipse_143" data-name="Ellipse 143" transform="translate(11.048)" fill="none" stroke="#bf60ff" stroke-width="2">
+        <ellipse cx="7.238" cy="18.286" rx="7.238" ry="18.286" stroke="none"/>
+        <ellipse cx="7.238" cy="18.286" rx="6.238" ry="17.286" fill="none"/>
+      </g>
+      <line id="Line_178" data-name="Line 178" x2="33.143" transform="translate(1.714 18.857)" fill="none" stroke="#bf60ff" stroke-width="2"/>
+    </g>
+    <g id="Ellipse_150" data-name="Ellipse 150" transform="translate(266 1681)" fill="none" stroke="#bf60ff" stroke-width="2">
+      <circle cx="32" cy="32" r="32" stroke="none"/>
+      <circle cx="32" cy="32" r="31" fill="none"/>
+    </g>
+    <g id="Ellipse_146" data-name="Ellipse 146" transform="translate(268.099 1691.181) rotate(-45)" fill="#601394" stroke="#bf60ff" stroke-width="2">
+      <circle cx="5.714" cy="5.714" r="5.714" stroke="none"/>
+      <circle cx="5.714" cy="5.714" r="4.714" fill="none"/>
+    </g>
+    <g id="Ellipse_149" data-name="Ellipse 149" transform="translate(311.738 1734.819) rotate(-45)" fill="#601394" stroke="#bf60ff" stroke-width="2">
+      <circle cx="5.714" cy="5.714" r="5.714" stroke="none"/>
+      <circle cx="5.714" cy="5.714" r="4.714" fill="none"/>
+    </g>
+    <g id="Ellipse_147" data-name="Ellipse 147" transform="translate(311.738 1691.181) rotate(-45)" fill="#601394" stroke="#bf60ff" stroke-width="2">
+      <circle cx="5.714" cy="5.714" r="5.714" stroke="none"/>
+      <circle cx="5.714" cy="5.714" r="4.714" fill="none"/>
+    </g>
+    <g id="Ellipse_148" data-name="Ellipse 148" transform="translate(268.099 1734.819) rotate(-45)" fill="#601394" stroke="#bf60ff" stroke-width="2">
+      <circle cx="5.714" cy="5.714" r="5.714" stroke="none"/>
+      <circle cx="5.714" cy="5.714" r="4.714" fill="none"/>
+    </g>
+  </g>
+</svg>

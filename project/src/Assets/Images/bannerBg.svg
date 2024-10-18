@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="548" viewBox="0 0 1366 548">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_5020" data-name="Rectangle 5020" width="1366" height="547" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5d21b7"/>
+      <stop offset="1" stop-color="#030114" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6f16a7"/>
+      <stop offset="1" stop-color="#030114" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_20491" data-name="Group 20491" transform="translate(-78.986)">
+    <rect id="Rectangle_125" data-name="Rectangle 125" width="1366" height="548" transform="translate(78.986)" fill="#030114"/>
+    <g id="Mask_Group_185" data-name="Mask Group 185" transform="translate(78.986)" clip-path="url(#clip-path)">
+      <g id="Group_20402" data-name="Group 20402" transform="translate(0 -560)">
+        <ellipse id="Ellipse_141" data-name="Ellipse 141" cx="535" cy="535.5" rx="535" ry="535.5" fill="url(#radial-gradient)"/>
+        <ellipse id="Ellipse_140" data-name="Ellipse 140" cx="535" cy="535.5" rx="535" ry="535.5" transform="translate(296)" fill="url(#radial-gradient-2)"/>
+      </g>
+    </g>
+  </g>
+</svg>

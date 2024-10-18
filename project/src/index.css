@@ -26,6 +26,7 @@ code {
   top:0px;
   z-index: 999;
   width: 100%;
+  border-bottom: 2px solid #b2ade7;
 }
 .menu__section{
   display: flex !important;
@@ -66,8 +67,8 @@ code {
   background-color: #fff !important;
 }
 .mainapp__container{
-  margin-top: 80px;
-  /* background-image: url('./Assets/Images/banner.svg'); */
+  margin-top: 70px;
+  background-image: url('./Assets/Images/bannerBg.svg');
   background-color: #561287;
   /* background-position: center; */
   /* background-repeat: no-repeat; */
@@ -77,7 +78,7 @@ code {
   width: 90%;
   height: auto;
   margin: auto;
-  padding: 90px 0px;
+  padding: 130px 0px;
   text-align: center;
 }
 .indiajoy__img{
@@ -382,6 +383,9 @@ code {
 }
 .contact__details1{
   width: 50%;
+}
+.contact__details1 img{
+  margin-bottom: 10px;
 }
 .contact__imgs{
   display: flex;
