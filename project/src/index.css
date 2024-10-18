@@ -84,6 +84,7 @@ code {
   /* background-position: center; */
   /* background-repeat: no-repeat; */
   color: #fff;
+  height: 550px;
   /* background-attachment: fixed; */
 }
 /* .mainapp__container:hover .mainapp__Sec,
@@ -119,7 +120,7 @@ code {
 }
 .mainapp__Sec2{
   position: absolute;
-  bottom: 30px;
+  bottom: 50px;
   right: 0px;
   -webkit-animation: mover 1s infinite  alternate;
   animation: mover 1s infinite  alternate;
@@ -551,6 +552,17 @@ code {
   .readytojump__section h1 {
     font-size: 38px;
   }
+  .mainapp__section {
+    padding: 76px 0px;
+}
+}
+@media only screen and (max-width: 544px) {
+  .mainapp__section {
+    padding: 50px 0px 0px 0px;
+}
+.mainapp__Sec2 {
+  bottom: -33px;
+}
 }
 @media only screen and (max-width: 500px) {
   .mainapp__section h1 {
@@ -594,5 +606,14 @@ code {
   }
   .internationalComp__innersection img{
     margin-bottom: 20px;
+  }
+  .mainapp__Sec1,.mainapp__Sec,.mainapp__Sec2{
+    display: none;
+  }
+  .mainapp__section button{
+    margin-bottom: 30px;
+  }
+  .mainapp__container{
+    height: auto !important;
   }
 }
