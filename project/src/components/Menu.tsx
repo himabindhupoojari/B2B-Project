@@ -49,7 +49,7 @@ export const Menu: React.FC<MenuProps> = ({ onContactClick }) => {
               <li className="nav-item">
                 <a
                   className={`nav-link ${activeMenu === 'contact' ? 'active' : ''}`}
-                  href="#"
+                  // href="#"
                   onClick={() => handleMenuClick('contact')}
                 >
                   Contact Us

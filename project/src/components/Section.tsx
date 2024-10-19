@@ -8,14 +8,15 @@ export const Section = () => {
             <div className='ourBrand__container'>
                 <h1 data-aos="fade-right" data-aos-delay="100">Our brand</h1>
                 <p className='ourBrand__text' data-aos="fade-right" data-aos-delay="200">New B2B initiative is here to spark connections and unlock Indiaoors to partnerships, investments, and growth. Whether you’re looking to collaborate, innovate, or elevate, we’ve got something for you.</p>
-                <p className='ourBrand__text' data-aos="fade-right" data-aos-delay="300">Here’s a sneak peek at our two joy-packed sub-events:</p>
+                <p className='ourBrand__text' data-aos="fade-right" data-aos-delay="300" style={{marginBottom:'40px'}}>Here’s a sneak peek at our two joy-packed sub-events:</p>
                 <div className='section__container'>
                     <div className='section__item1'>
                         <div className='section__innerItem'>
                             <img src={BoxItem1} alt='BoxItem1' data-aos="fade-right" data-aos-delay="100"/>
                             <h2 className='networkingText1' data-aos="fade-right" data-aos-delay="200">Networking Event</h2>
                         </div>
-                        <p data-aos="fade-right" data-aos-delay="300">Step into a vibrant space where ideas come to life! Connect with investors, buyers, and tech wizards, all in one place. The best part?</p>
+                        <p data-aos="fade-right" data-aos-delay="300">Step into a vibrant space where ideas come to life! Connect with investors, buyers, and tech wizards, all in one place.</p>
+                        <p data-aos="fade-right" data-aos-delay="300">The best part?</p>
                         <div className='detailsInner'>
                             <div className='dividerDiv'></div>
                             <h2 className='freeRes'>FREE FOR REGISTERED DELEGATES</h2>
