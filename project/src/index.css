@@ -44,8 +44,12 @@ code {
   justify-content: space-between !important;
   align-items: center !important;
 }
-.menu__section .navbar-brand{
+.menu__section .navbar-brand img{
   color: #fff;
+  width: 35px;
+height: 44px;
+margin-bottom: 4px;
+margin-top: 5px;
 }
 .navbar-brand:hover{
   color: #fff !important;
@@ -175,12 +179,16 @@ code {
   font-weight: 600;
   margin-top: 10px;
   cursor: pointer;
+  z-index: 9999999999999999999 !important;
+}
+.mainapp__section button:hover{
+  background-color: #E7AF40;
 }
 .ourBrand__container{
   width: 90%;
   height: auto;
   margin: auto;
-  padding: 60px 0px;
+  padding: 80px 0px;
 }
 .ourBrand__container h1{
   font-size: 45px;
@@ -254,6 +262,9 @@ code {
   border: 0px;
   cursor: pointer;
 }
+.section__item1 button:hover{
+  background-color: #E7AF40;
+}
 .section__item2 button{
   background-color: #FFC24B;
   color: #030114;
@@ -263,6 +274,9 @@ code {
   font-weight: 600;
   border: 0px;
   cursor: pointer;
+}
+.section__item2 button:hover{
+  background-color: #E7AF40;
 }
 .detailsInner{
   position: relative;
@@ -301,7 +315,7 @@ code {
 .b2b__container{
   width: 100%;
   height: auto;
-  margin: 0px 0px 70px 0px;
+  margin: 0px 0px 80px 0px;
 }
 .b2b__section{
   width: 90%;
@@ -363,37 +377,37 @@ code {
   margin: 10px;
 }
 .img__style1{
-  width: 196px;
-  height: 80px;
+  width: 140px;
+  height: 47px;
 }
 .img__style2{
-  width: 173px;
-  height: 52px;
+  width: 140px;
+  height: 35px;
 }
 .img__style3{
-  width: 78px;
-  height: 97px;
+  width: 100px;
+  height: 64px;
 }
 .img__style4{
-  width: 146px;
-  height: 107px;
+  width: 74px;
+  height: 64px;
 }
 .img__style5{
-  width: 171px;
-  height: 69px;
+  width: 140px;
+  height: 39px;
 }
 .img__style6{
-  width: 145px;
-  height: 68px;
+  width: 160px;
+  height: 27px;
 }
 .img__style7{
-  width: 145px;
-  height: 41px;
+  width: 140px;
+  height: 24px;
   transition: all 0.5s ease;
 }
 .img__style8{
-  width: 145px;
-  height: 72px;
+  width: 100px;
+  height: 53px;
   position: relative;
   top: -20px;
   transition: all 0.5s ease;
@@ -407,7 +421,7 @@ code {
   width: 100%;
   height: 1px;
   background-color: #b2ade7;
-  margin: 30px 0px;
+  margin: 80px 0px;
 }
 .readytojump__container{
   background-color: #561287;
@@ -441,6 +455,9 @@ code {
   font-weight: 600;
   cursor: pointer;
 }
+.readytojump__section button:hover{
+  background-color: #E7AF40;
+}
 .contact__container{
   background-color: #030114;
 }
@@ -468,6 +485,8 @@ code {
 }
 .contact__details1 img{
   margin-bottom: 10px;
+  width: 44px;
+  height: 56px;
 }
 .contact__imgs{
   display: flex;
@@ -512,6 +531,9 @@ code {
   border: 0px;
   margin-top: 10px;
   cursor: pointer;
+}
+.contact__details2 button:hover{
+  background-color: #E7AF40;
 }
 /* media */
 @media only screen and (max-width: 1324px) {
@@ -609,6 +631,7 @@ code {
     display: block;
     width: 50%;
     margin: auto;
+    text-align: center;
   }
   .internationalComp__innersection img{
     margin-bottom: 20px;

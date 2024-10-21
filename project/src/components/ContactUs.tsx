@@ -14,18 +14,24 @@ export const ContactUs = () => {
                     <h2>B2B</h2> */}
                     <img src={Logo} alt='' />
                     <div className='contact__imgs'>
-                        <img src={FIcon} alt='' data-aos="fade-up" data-aos-delay="100"/>
-                        <img src={IIcon} alt='' data-aos="fade-up" data-aos-delay="200"/>
-                        <img src={XIcon} alt='' data-aos="fade-up" data-aos-delay="300"/>
-                        <img src={YIcon} alt='' data-aos="fade-up" data-aos-delay="400"/>
+                        <a href="https://www.facebook.com/Indiajoy.in/" target="_blank" rel="noopener noreferrer">
+                            <img src={FIcon} alt='Facebook Icon' data-aos="fade-up" data-aos-delay="100" />
+                        </a>
+                        <a href="https://www.linkedin.com/company/indiajoy2024/?viewAsMember=true" target="_blank" rel="noopener noreferrer">
+                            <img src={IIcon} alt='LinkedIn Icon' data-aos="fade-up" data-aos-delay="200" />
+                        </a>
+                        <img src={XIcon} alt='X Icon' data-aos="fade-up" data-aos-delay="300" />
+                        <a href="https://www.youtube.com/@indiajoy7846" target="_blank" rel="noopener noreferrer">
+                        <img src={YIcon} alt='Y Icon' data-aos="fade-up" data-aos-delay="400" />
+                        </a>
                     </div>
                     <p className='contact__copyRights'>© 2024 Indiajoy. All Rights Reserved</p>
                 </div>
                 <div className='contact__details2'>
                     <form>
                         <h2>Contact Us</h2>
-                        <input type='text' placeholder='Name' data-aos="fade-up" data-aos-delay="100"/>
-                        <input type='email' placeholder='Email' data-aos="fade-up" data-aos-delay="200"/><br/>
+                        <input type='text' placeholder='Name' data-aos="fade-up" data-aos-delay="100" />
+                        <input type='email' placeholder='Email' data-aos="fade-up" data-aos-delay="200" /><br />
                         <button data-aos="fade-up" data-aos-delay="300">Submit</button>
                     </form>
                 </div>
