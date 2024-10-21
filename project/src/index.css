@@ -369,11 +369,18 @@ margin-top: 5px;
 .internationalComp__innersection{
   width: 100%;
   display: flex;
-  column-gap: 20px;
+  /* column-gap: 20px; */
   /* justify-content: space-between; */
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin: 0px 0px 60px 0px;
+}
+.participants{
+  /* justify-content: space-between; */
+  width: 23% !important;
+  margin: auto;
+  margin-bottom: 80px;
+  padding-top: 16px !important;
 }
 .internationalComp__innersection img{
   margin: 10px;
@@ -542,6 +549,11 @@ margin-top: 5px;
   .detailsInner h2 {
     left: 12%;
     font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1173px) {
+  .participants {
+    width: 245px !important;
   }
 }
 @media only screen and (max-width: 1070px) {

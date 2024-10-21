@@ -28,7 +28,7 @@ export const InternationalComp = () => {
                 <div className='divider__CollaborationsComp'></div>
                 <div className='internationalComp__section'>
                     <h1 data-aos="fade-up" data-aos-delay="200">Collaborations</h1>
-                    <div className='internationalComp__innersection'>
+                    <div className='internationalComp__innersection participants'>
                         {/* <img src={Img7} alt='' className='img__style7' data-aos="fade-up" data-aos-delay="100"/>
                         <img src={Img8} alt='' className='img__style8' data-aos="fade-up" data-aos-delay="200"/>
                         <img src={Img7} alt='' className='img__style7' data-aos="fade-up" data-aos-delay="300"/>
