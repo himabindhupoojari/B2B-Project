@@ -20,9 +20,11 @@ export const ContactUs = () => {
                         <a href="https://www.linkedin.com/company/indiajoy2024/?viewAsMember=true" target="_blank" rel="noopener noreferrer">
                             <img src={IIcon} alt='LinkedIn Icon' data-aos="fade-up" data-aos-delay="200" />
                         </a>
-                        <img src={XIcon} alt='X Icon' data-aos="fade-up" data-aos-delay="300" />
+                        <a href="https://x.com/Indiajoyin" target="_blank" rel="noopener noreferrer">
+                            <img src={XIcon} alt='X Icon' data-aos="fade-up" data-aos-delay="300" />
+                        </a>
                         <a href="https://www.youtube.com/@indiajoy7846" target="_blank" rel="noopener noreferrer">
-                        <img src={YIcon} alt='Y Icon' data-aos="fade-up" data-aos-delay="400" />
+                            <img src={YIcon} alt='Y Icon' data-aos="fade-up" data-aos-delay="400" />
                         </a>
                     </div>
                     <p className='contact__copyRights'>© 2024 Indiajoy. All Rights Reserved</p>
