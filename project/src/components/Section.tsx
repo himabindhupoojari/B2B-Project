@@ -45,7 +45,9 @@ export const Section = () => {
                             <li data-aos="fade-right" data-aos-delay="600">Unlock guaranteed meeting slots with the people who matter most. </li>
                             <li data-aos="fade-right" data-aos-delay="700">Dive into tailored matchmaking designed to bring your vision to life.</li>
                         </ul>
+                        <a href='https://meai-imec.com/indiajoy/indiajoyRegister.html' target="_blank" rel="noopener noreferrer">
                         <button data-aos="fade-right" data-aos-delay="800">Register</button>
+                        </a>
                     </div>
                 </div>
             </div>
